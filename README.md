@@ -21,6 +21,32 @@ The analysis uses Python-based text and sentiment analysis on a dataset of consu
 
 The dataset contains review text, star ratings, product information, recommendation information, helpful votes, and other review metadata.
 
+## How to Run
+
+### 1. Download the Dataset
+
+Download the **Datafiniti Consumer Reviews of Amazon Products** dataset from Kaggle.
+
+Use the file:
+
+`1429_1.csv`
+
+### 2. Open the Notebook
+
+Open `Consumer_Review_Analysis.ipynb` in Google Colab or Jupyter Notebook.
+
+### 3. Upload the Dataset
+
+Upload `1429_1.csv` to the notebook environment.
+
+### 4. Run the Notebook
+
+Run the notebook cells from top to bottom.
+
+The notebook performs data cleaning, sentiment analysis, keyword-based theme analysis, and review helpfulness analysis.
+
+> **Note:** The analysis uses the same `1429_1.csv` dataset and skips malformed CSV rows during loading using `on_bad_lines="skip"`.
+
 ## Methodology
 
 1. Data loading and cleaning
