@@ -70,8 +70,7 @@ The dataset contains review text, star ratings, product information, recommendat
 consumer-review-analysis/
 │
 ├── Consumer_Review_Analysis.ipynb
-├── README.md
-└── dataset/
+└── README.md
 
 ## Author
 
